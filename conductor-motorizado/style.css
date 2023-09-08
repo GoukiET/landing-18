@@ -1,6 +1,7 @@
-* {
-  padding: 2px;
+.barra-navegacion {
+  background: linear-gradient(to right, #fddead, #f4b9bc);
 }
+
 #estadisticas-text {
   margin-top: 20px;
 }
@@ -19,6 +20,7 @@
 
 .contenedor-motorizado {
   background-color: #f2f2f2;
+  font-family: 'tipo', sans-serif;
 }
 
 #contenedor-moto {
@@ -27,6 +29,7 @@
 }
 
 #footer {
+  margin-top: 50px;
   font-size: 1rem;
   background: #0a132d;
   color: #fff;

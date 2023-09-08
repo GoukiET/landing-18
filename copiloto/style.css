@@ -1,9 +1,17 @@
+.barra-navegacion {
+  background: linear-gradient(to right, #fddead, #f4b9bc);
+}
+
 #estadisticas-text {
   margin-top: 20px;
 }
 
 .estadistica-p {
   text-align: justify;
+}
+
+#titulo-copiloto {
+  margin-bottom: 30px;
 }
 
 #footer {
@@ -13,6 +21,7 @@
 }
 
 #footer .footer-top {
+  margin-top: 50px;
   padding: 60px 0 30px 0;
 }
 
@@ -26,6 +35,10 @@
   margin-bottom: 0;
   font-family: 'Roboto Slab', sans-serif;
   color: #5e5e5e;
+}
+.contenedor-copiloto {
+  background-color: #f2f2f2;
+  font-family: 'tipo', sans-serif;
 }
 
 #footer .footer-top h2 {

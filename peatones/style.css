@@ -1,3 +1,7 @@
+.barra-navegacion {
+  background: linear-gradient(to right, #fddead, #f4b9bc);
+}
+
 #estadisticas-text {
   margin-top: 20px;
 }
@@ -6,7 +10,17 @@
   text-align: justify;
 }
 
+#titulo-peatones {
+  margin-bottom: 30px;
+}
+
+.contenedor-peatones {
+  background-color: #f2f2f2;
+  font-family: 'tipo', sans-serif;
+}
+
 #footer {
+  margin-top: 50px;
   font-size: 1rem;
   background: #0a132d;
   color: #fff;

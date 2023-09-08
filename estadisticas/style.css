@@ -1,33 +1,15 @@
-/* NAVBAR */
-
-.redes-sociales {
-  width: 20px;
-}
-/* FIN NAVBAR */
-@font-face {
-  font-family: 'tipo';
-  src: url(./assets/fonts/MuseoSans_0.otf);
-}
-.imagen-bajo-video {
-  height: auto;
+#estadisticas-text {
+  margin-top: 20px;
 }
 
-.hero {
-  width: 100%;
-  /* height: 100vh; */
-  position: relative;
-  padding: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.estadistica-p {
+  text-align: justify;
 }
-.back-video {
-  z-index: -1;
+#titulo-ciclos {
+  margin-bottom: 30px;
 }
-
 #footer {
+  margin-top: 50px;
   font-size: 1rem;
   background: #0a132d;
   color: #fff;
@@ -47,6 +29,10 @@
   margin-bottom: 0;
   font-family: 'Roboto Slab', sans-serif;
   color: #5e5e5e;
+}
+.contenedor-estadisticas {
+  background: linear-gradient(to right, #fddead, #f4b9bc);
+  font-family: 'tipo', sans-serif;
 }
 
 #footer .footer-top h2 {
