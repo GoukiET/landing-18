@@ -1,17 +1,36 @@
+@font-face {
+  font-family: 'museo-0';
+  src: url(../assets/fonts/MuseoSans_0.otf);
+}
+
+@font-face {
+  font-family: 'museo-500';
+  src: url(../assets/fonts/MuseoSans500.otf);
+}
+
+@font-face {
+  font-family: 'museo-700';
+  src: url(../assets/fonts/MuseoSans-700.ttf);
+}
+
+@font-face {
+  font-family: 'museo-900';
+  src: url(../assets/fonts/MuseoSans-900Italic.otf);
+}
+
 .barra-navegacion {
   background: linear-gradient(to right, #fddead, #f4b9bc);
 }
 
-#estadisticas-text {
-  margin-top: 20px;
-}
-
 .estadistica-p {
   text-align: justify;
+  font-family: museo-500;
 }
+
 #titulo-ciclos {
   margin-bottom: 30px;
 }
+
 #footer {
   margin-top: 50px;
   font-size: 1rem;
