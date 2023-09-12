@@ -1,3 +1,6 @@
+.barra-navegacion {
+  background: linear-gradient(to right, #fddead, #f4b9bc);
+}
 #estadisticas-text {
   margin-top: 20px;
 }
