@@ -65,15 +65,13 @@
   <!-- Fin del Nav -->
 
   <!-- Inicio Video Campaña -->
-  <!--  <div class="container-fluid ratio ratio-21x9" id="video-player">
-    <iframe
-      src="https://www.youtube.com/embed/isPDwZBunn4?playlist=isPDwZBunn4&loop=1&loop=1&controls=0&mute=1&autoplay=1"
-      title="YouTube video" allowfullscreen mute="1"></iframe>
-  </div> -->
-  <div class="container-fluid ratio ratio-21x9 bg-black" id="video-player">
 
-    <video src="./assets/video/1992.mp4" autoplay loop muted></video>
+  <div class="container-fluid ratio ratio-21x9 bg-black d-flex d-none d-sm-none d-md-block" id="video-player">
+    <video src="./assets/video/original.mp4" autoplay loop muted></video>
+  </div>
 
+  <div class="container-fluid ratio ratio-4x3 bg-black d-flex d-sm-block d-md-none">
+    <video src="./assets/video/video-responsive.mp4" autoplay loop muted></video>
   </div>
   <!-- Fin Video Campaña -->
 
@@ -213,7 +211,7 @@
   <!-- Inicio seccion Recomendaciones -->
   <div class="container-fluid bg-secondary-subtle p-4 mt-1 pb-5">
     <div>
-      <div class="container-fluid d-flex justify-content-center text-center">
+      <div class="container-fluid d-flex justify-content-center text-center mb-4">
         <p id="recomendaciones"><b>RECOMENDACIONES DE SEGURIDAD VIAL PARA VIAJES SEGUROS</b>
         </p>
       </div>
